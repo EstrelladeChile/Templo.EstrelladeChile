@@ -1,9 +1,4 @@
-/*------------------------------------
- *Author:FortunaTheme
- *Template:Rivo
- *Version:1.1
- *-------------------------------------
- */
+
 @media screen and (max-width: 1199px) {
   /*--------------header------------------*/
   header {
@@ -65,6 +60,8 @@
     transform: translateY(0%);
   }
   /*--------------blog----------------*/
+
+  
   .blog-single-item.blog-item-margin {
     margin-bottom: 50px;
   }
@@ -204,6 +201,13 @@
     max-width: 90%;
   }
   .about-img {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    max-width: 100%;
+  }
+  .client-img {
     height: 100%;
     width: 100%;
     z-index: 0;
